@@ -6,7 +6,7 @@
 <tr><td><b>ID</b><td><td>{{ .Params.authorId}}</td></tr>
 <tr><td><b>Nacionalidad</b><td><td>{{ .Params.nacionalidad}}</td></tr>
 <tr><td><b>Sexo</b><td><td>{{ .Params.sexo}}</td></tr>
-<tr><td><b>Relacionado</b><td><td>
+<tr><td><b>Relacionado:</b><td><td>
   {{ range .Params.fields }} {{ . }} | {{end}}
 </td></tr>
 </table>
